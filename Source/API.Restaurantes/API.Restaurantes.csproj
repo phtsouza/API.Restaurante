@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\API.Restaurantes.Application\API.Restaurantes.Application.csproj" />
+    <ProjectReference Include="..\API.Restaurantes.DbRepository.Adapter\API.Restaurantes.DbRepository.Adapter.csproj" />
+    <ProjectReference Include="..\API.Restaurantes.Domain\API.Restaurantes.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

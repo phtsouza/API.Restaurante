@@ -1,0 +1,17 @@
+C:\Users\pedroteixeira_frwk\source\repos\API.Restaurantes\Source\API.Restaurantes.Domain\obj\Debug\net6.0\API.Restaurantes.Domain.csproj.AssemblyReference.cache
+C:\Users\pedroteixeira_frwk\source\repos\API.Restaurantes\Source\API.Restaurantes.Domain\obj\Debug\net6.0\API.Restaurantes.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedroteixeira_frwk\source\repos\API.Restaurantes\Source\API.Restaurantes.Domain\obj\Debug\net6.0\API.Restaurantes.Domain.AssemblyInfoInputs.cache
+C:\Users\pedroteixeira_frwk\source\repos\API.Restaurantes\Source\API.Restaurantes.Domain\obj\Debug\net6.0\API.Restaurantes.Domain.AssemblyInfo.cs
+C:\Users\pedroteixeira_frwk\source\repos\API.Restaurantes\Source\API.Restaurantes.Domain\obj\Debug\net6.0\API.Restaurantes.Domain.csproj.CoreCompileInputs.cache
+C:\Users\pedroteixeira_frwk\Desktop\API.Restaurantes\Source\API.Restaurantes.Domain\obj\Debug\net6.0\API.Restaurantes.Domain.csproj.AssemblyReference.cache
+C:\Users\pedroteixeira_frwk\Desktop\API.Restaurantes\Source\API.Restaurantes.Domain\obj\Debug\net6.0\API.Restaurantes.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedroteixeira_frwk\Desktop\API.Restaurantes\Source\API.Restaurantes.Domain\obj\Debug\net6.0\API.Restaurantes.Domain.AssemblyInfoInputs.cache
+C:\Users\pedroteixeira_frwk\Desktop\API.Restaurantes\Source\API.Restaurantes.Domain\obj\Debug\net6.0\API.Restaurantes.Domain.AssemblyInfo.cs
+C:\Users\pedroteixeira_frwk\Desktop\API.Restaurantes\Source\API.Restaurantes.Domain\obj\Debug\net6.0\API.Restaurantes.Domain.csproj.CoreCompileInputs.cache
+C:\Users\pedroteixeira_frwk\Desktop\API.Restaurantes\Source\API.Restaurantes.Domain\bin\Debug\net6.0\API.Restaurantes.Domain.deps.json
+C:\Users\pedroteixeira_frwk\Desktop\API.Restaurantes\Source\API.Restaurantes.Domain\bin\Debug\net6.0\API.Restaurantes.Domain.dll
+C:\Users\pedroteixeira_frwk\Desktop\API.Restaurantes\Source\API.Restaurantes.Domain\bin\Debug\net6.0\API.Restaurantes.Domain.pdb
+C:\Users\pedroteixeira_frwk\Desktop\API.Restaurantes\Source\API.Restaurantes.Domain\obj\Debug\net6.0\API.Restaurantes.Domain.dll
+C:\Users\pedroteixeira_frwk\Desktop\API.Restaurantes\Source\API.Restaurantes.Domain\obj\Debug\net6.0\refint\API.Restaurantes.Domain.dll
+C:\Users\pedroteixeira_frwk\Desktop\API.Restaurantes\Source\API.Restaurantes.Domain\obj\Debug\net6.0\API.Restaurantes.Domain.pdb
+C:\Users\pedroteixeira_frwk\Desktop\API.Restaurantes\Source\API.Restaurantes.Domain\obj\Debug\net6.0\ref\API.Restaurantes.Domain.dll

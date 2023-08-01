@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FcspOnK8++qFvuTxHRFAsyqF/9gcPzJEPBNjPgYAiMymfD2R61LCg7aQt7VDMvlyq8QG/f6k1xNawAU+3vgi8A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pedroteixeira_frwk\\Desktop\\API.Restaurantes\\Source\\API.Restaurantes.Application\\API.Restaurantes.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pedroteixeira_frwk\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

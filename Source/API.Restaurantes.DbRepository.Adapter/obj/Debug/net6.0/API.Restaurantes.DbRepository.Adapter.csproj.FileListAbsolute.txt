@@ -1,0 +1,15 @@
+C:\Users\pedroteixeira_frwk\Desktop\API.Restaurantes\Source\API.Restaurantes.DbRepository.Adapter\obj\Debug\net6.0\API.Restaurantes.DbRepository.Adapter.csproj.AssemblyReference.cache
+C:\Users\pedroteixeira_frwk\Desktop\API.Restaurantes\Source\API.Restaurantes.DbRepository.Adapter\obj\Debug\net6.0\API.Restaurantes.DbRepository.Adapter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedroteixeira_frwk\Desktop\API.Restaurantes\Source\API.Restaurantes.DbRepository.Adapter\obj\Debug\net6.0\API.Restaurantes.DbRepository.Adapter.AssemblyInfoInputs.cache
+C:\Users\pedroteixeira_frwk\Desktop\API.Restaurantes\Source\API.Restaurantes.DbRepository.Adapter\obj\Debug\net6.0\API.Restaurantes.DbRepository.Adapter.AssemblyInfo.cs
+C:\Users\pedroteixeira_frwk\Desktop\API.Restaurantes\Source\API.Restaurantes.DbRepository.Adapter\obj\Debug\net6.0\API.Restaurantes.DbRepository.Adapter.csproj.CoreCompileInputs.cache
+C:\Users\pedroteixeira_frwk\Desktop\API.Restaurantes\Source\API.Restaurantes.DbRepository.Adapter\bin\Debug\net6.0\API.Restaurantes.DbRepository.Adapter.deps.json
+C:\Users\pedroteixeira_frwk\Desktop\API.Restaurantes\Source\API.Restaurantes.DbRepository.Adapter\bin\Debug\net6.0\API.Restaurantes.DbRepository.Adapter.dll
+C:\Users\pedroteixeira_frwk\Desktop\API.Restaurantes\Source\API.Restaurantes.DbRepository.Adapter\bin\Debug\net6.0\API.Restaurantes.DbRepository.Adapter.pdb
+C:\Users\pedroteixeira_frwk\Desktop\API.Restaurantes\Source\API.Restaurantes.DbRepository.Adapter\bin\Debug\net6.0\API.Restaurantes.Domain.dll
+C:\Users\pedroteixeira_frwk\Desktop\API.Restaurantes\Source\API.Restaurantes.DbRepository.Adapter\bin\Debug\net6.0\API.Restaurantes.Domain.pdb
+C:\Users\pedroteixeira_frwk\Desktop\API.Restaurantes\Source\API.Restaurantes.DbRepository.Adapter\obj\Debug\net6.0\API.Restaurantes.DbRepository.Adapter.csproj.CopyComplete
+C:\Users\pedroteixeira_frwk\Desktop\API.Restaurantes\Source\API.Restaurantes.DbRepository.Adapter\obj\Debug\net6.0\API.Restaurantes.DbRepository.Adapter.dll
+C:\Users\pedroteixeira_frwk\Desktop\API.Restaurantes\Source\API.Restaurantes.DbRepository.Adapter\obj\Debug\net6.0\refint\API.Restaurantes.DbRepository.Adapter.dll
+C:\Users\pedroteixeira_frwk\Desktop\API.Restaurantes\Source\API.Restaurantes.DbRepository.Adapter\obj\Debug\net6.0\API.Restaurantes.DbRepository.Adapter.pdb
+C:\Users\pedroteixeira_frwk\Desktop\API.Restaurantes\Source\API.Restaurantes.DbRepository.Adapter\obj\Debug\net6.0\ref\API.Restaurantes.DbRepository.Adapter.dll

@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\API.Restaurantes.Application",
+    "\\API.Restaurantes.Application\\Services",
+    "\\API.Restaurantes.ScriptsBd"
+  ],
+  "SelectedNode": "\\API.Restaurantes.Application\\Services\\RestaurantesService.cs",
+  "PreviewInSolutionExplorer": false
+}
