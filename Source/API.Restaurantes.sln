@@ -9,15 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{84663869
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{3F327FFB-B26E-4E22-BE61-9D1EE655F1DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Restaurantes", "API.Restaurantes\API.Restaurantes.csproj", "{E0B3F4AB-8C0E-4FD3-B1EC-A649726982B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Restaurantes.Application", "API.Restaurantes.Application\API.Restaurantes.Application.csproj", "{38454568-FD65-4B42-97F4-81E05967B162}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Restaurantes.Application", "API.Restaurantes.Application\API.Restaurantes.Application.csproj", "{38454568-FD65-4B42-97F4-81E05967B162}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Restaurantes.Domain", "API.Restaurantes.Domain\API.Restaurantes.Domain.csproj", "{92E2564B-F0D3-4D9D-A0D5-A7C253DF9F10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Restaurantes.Domain", "API.Restaurantes.Domain\API.Restaurantes.Domain.csproj", "{92E2564B-F0D3-4D9D-A0D5-A7C253DF9F10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Restaurantes.Tests", "API.Restaurantes.Tests\API.Restaurantes.Tests.csproj", "{D408493E-54B1-4ECA-829B-1607B3D893B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Restaurantes.Tests", "API.Restaurantes.Tests\API.Restaurantes.Tests.csproj", "{D408493E-54B1-4ECA-829B-1607B3D893B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Restaurantes.DbRepository.Adapter", "API.Restaurantes.DbRepository.Adapter\API.Restaurantes.DbRepository.Adapter.csproj", "{1964479A-7767-40A2-85C7-E6D8F2D0A030}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Restaurantes.DbRepository.Adapter", "API.Restaurantes.DbRepository.Adapter\API.Restaurantes.DbRepository.Adapter.csproj", "{1964479A-7767-40A2-85C7-E6D8F2D0A030}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Restaurantes", "API.Restaurantes.WebApi\API.Restaurantes.csproj", "{C706CB4E-4389-4301-9A29-164DDFD06F0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E0B3F4AB-8C0E-4FD3-B1EC-A649726982B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E0B3F4AB-8C0E-4FD3-B1EC-A649726982B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E0B3F4AB-8C0E-4FD3-B1EC-A649726982B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E0B3F4AB-8C0E-4FD3-B1EC-A649726982B4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{38454568-FD65-4B42-97F4-81E05967B162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{38454568-FD65-4B42-97F4-81E05967B162}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38454568-FD65-4B42-97F4-81E05967B162}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,16 +41,20 @@ Global
 		{1964479A-7767-40A2-85C7-E6D8F2D0A030}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1964479A-7767-40A2-85C7-E6D8F2D0A030}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1964479A-7767-40A2-85C7-E6D8F2D0A030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C706CB4E-4389-4301-9A29-164DDFD06F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C706CB4E-4389-4301-9A29-164DDFD06F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C706CB4E-4389-4301-9A29-164DDFD06F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C706CB4E-4389-4301-9A29-164DDFD06F0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{E0B3F4AB-8C0E-4FD3-B1EC-A649726982B4} = {3F327FFB-B26E-4E22-BE61-9D1EE655F1DC}
 		{38454568-FD65-4B42-97F4-81E05967B162} = {B5F874EB-2591-42A4-B8AC-93C474394322}
 		{92E2564B-F0D3-4D9D-A0D5-A7C253DF9F10} = {B5F874EB-2591-42A4-B8AC-93C474394322}
 		{D408493E-54B1-4ECA-829B-1607B3D893B0} = {B5F874EB-2591-42A4-B8AC-93C474394322}
 		{1964479A-7767-40A2-85C7-E6D8F2D0A030} = {84663869-1DBC-40AD-8EFE-20ECE614202E}
+		{C706CB4E-4389-4301-9A29-164DDFD06F0B} = {3F327FFB-B26E-4E22-BE61-9D1EE655F1DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {783F0D61-F136-48CD-9306-47475454A32D}

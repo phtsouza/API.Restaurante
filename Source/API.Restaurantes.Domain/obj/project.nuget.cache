@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "IPtCoNQnwXAuYCe5lxFRdob/NekDoenzKoF1cxqMQji1WbYFvO1cpnCQ1QVK2dlV+exParVSnlcsbltxevV+zQ==",
+  "dgSpecHash": "guAp7Vgan5Yn69dpLzMUfJAg7eHFdTBkLJrh61RCDL+b9myOeBiMAj2IagOMmis0kJ9MS3UBSqHV7yM/l3jr9A==",
   "success": true,
   "projectFilePath": "C:\\Users\\pedroteixeira_frwk\\Desktop\\API.Restaurantes\\Source\\API.Restaurantes.Domain\\API.Restaurantes.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
   "logs": []
 }

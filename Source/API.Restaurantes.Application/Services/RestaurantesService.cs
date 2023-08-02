@@ -7,11 +7,16 @@ namespace API.Restaurantes.Application.Services
     public class RestaurantesService : IRestaurantesService
     {
         private readonly IRestaurantesWriteDbRepositoryAdapter restaurantesWriteDbRepositoryAdapter;
+        private readonly IRestaurantesReadDbRepositoryAdapter restaurantesReadDbRepositoryAdapter;
 
-        public RestaurantesService(IRestaurantesWriteDbRepositoryAdapter restaurantesWriteDbRepositoryAdapter)
+        public RestaurantesService(IRestaurantesWriteDbRepositoryAdapter restaurantesWriteDbRepositoryAdapter,
+            IRestaurantesReadDbRepositoryAdapter restaurantesReadDbRepositoryAdapter)
         {
             this.restaurantesWriteDbRepositoryAdapter = restaurantesWriteDbRepositoryAdapter ??
                 throw new ArgumentException(nameof(restaurantesWriteDbRepositoryAdapter));
+
+            this.restaurantesReadDbRepositoryAdapter = restaurantesReadDbRepositoryAdapter ??
+                throw new ArgumentException(nameof(restaurantesReadDbRepositoryAdapter));
         }
 
 
@@ -27,6 +32,20 @@ namespace API.Restaurantes.Application.Services
             }
            
             return restaurante;
+        }
+
+        public async Task<Restaurante> ObterRestaurantePorIdAsync(int id)
+        {
+            var restaurante = await restaurantesReadDbRepositoryAdapter.ObterRestaurantePorIdAsync(id);
+
+            return restaurante;
+        }
+
+        public async Task<IEnumerable<Restaurante>> ObterTodosRestaurantesAsync()
+        {
+            var listaRestaurantes = await restaurantesReadDbRepositoryAdapter.ObterTodosRestaurantesAsync();
+
+            return listaRestaurantes;
         }
     }
 }

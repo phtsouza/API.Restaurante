@@ -9,6 +9,7 @@ namespace API.Restaurantes
         public WebApiMapperProfile()
         {
             CreateMap<RestaurantePostDto, Restaurante>();
+            CreateMap<Restaurante, RestauranteGetResult>();
         }
     }
 }

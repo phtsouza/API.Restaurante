@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "FcspOnK8++qFvuTxHRFAsyqF/9gcPzJEPBNjPgYAiMymfD2R61LCg7aQt7VDMvlyq8QG/f6k1xNawAU+3vgi8A==",
+  "dgSpecHash": "L7ivRD/87yjSXMabLdOYFqUzAa66bEVngZZaE+xAAe7hmmQJpwgXiZ5BazN0/QAhHaaJ4ncnYtFyVgEWYqZuzg==",
   "success": true,
   "projectFilePath": "C:\\Users\\pedroteixeira_frwk\\Desktop\\API.Restaurantes\\Source\\API.Restaurantes.Application\\API.Restaurantes.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\pedroteixeira_frwk\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    "C:\\Users\\pedroteixeira_frwk\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

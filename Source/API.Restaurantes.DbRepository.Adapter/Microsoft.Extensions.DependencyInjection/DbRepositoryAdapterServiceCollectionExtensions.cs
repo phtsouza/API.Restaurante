@@ -26,7 +26,7 @@ namespace API.Restaurantes.DbRepository.Adapter.Microsoft.Extensions.DependencyI
             services.AddSingleton(dbRepositoryAdapterConfiguration);
 
             services.AddScoped<IRestaurantesWriteDbRepositoryAdapter, RestaurantesDbRepositoryAdapter>();
-            // services.AddScoped<IAutorizacoesDigitaisReadDbRepositoryAdapter, RestaurantesDbRepositoryAdapter>();
+            services.AddScoped<IRestaurantesReadDbRepositoryAdapter, RestaurantesDbRepositoryAdapter>();
 
             services.AddScoped<IDbConnection>(d =>
             {

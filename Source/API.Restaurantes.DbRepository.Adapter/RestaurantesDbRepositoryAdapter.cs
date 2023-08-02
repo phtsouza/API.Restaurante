@@ -5,7 +5,9 @@ using System.Data;
 
 namespace API.Restaurantes.DbRepository.Adapter
 {
-    public class RestaurantesDbRepositoryAdapter : IRestaurantesWriteDbRepositoryAdapter
+    public class RestaurantesDbRepositoryAdapter : 
+        IRestaurantesWriteDbRepositoryAdapter,
+        IRestaurantesReadDbRepositoryAdapter
     {
         private readonly IDbConnection dbConnection;
 
@@ -42,6 +44,40 @@ namespace API.Restaurantes.DbRepository.Adapter
             parametros.Add("@Telefone", restaurante.Telefone);
 
             return dbConnection.ExecuteScalar<int>(query, parametros);
+        }
+
+        public async Task<Restaurante> ObterRestaurantePorIdAsync(int id)
+        {
+            var query = @"
+                        SELECT [Id]
+                                ,[Nome]
+                               ,[Cnpj]
+                               ,[Endereco]
+                               ,[Telefone]
+                        FROM [dbo].[Restaurantes] WITH(NOLOCK)
+                        where Id = @Id";
+
+            var parametros = new DynamicParameters();
+            parametros.Add("@Id", id);
+
+            var restaurante = await dbConnection.QueryFirstOrDefaultAsync<Restaurante>(query, parametros);
+
+            return restaurante;
+        }
+
+        public async Task<IEnumerable<Restaurante>> ObterTodosRestaurantesAsync()
+        {
+            var query = @"
+                        SELECT [Id]
+                                ,[Nome]
+                               ,[Cnpj]
+                               ,[Endereco]
+                               ,[Telefone]
+                        FROM [dbo].[Restaurantes] WITH(NOLOCK)";
+
+            var listaRestaurantes = await dbConnection.QueryAsync<Restaurante>(query);
+
+            return listaRestaurantes;
         }
     }
 }

@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pedroteixeira_frwk\\Desktop\\API.Restaurantes\\Source\\API.Restaurantes\\API.Restaurantes.csproj": {}
+    "C:\\Users\\pedroteixeira_frwk\\Desktop\\API.Restaurantes\\Source\\API.Restaurantes.WebApi\\API.Restaurantes.csproj": {}
   },
   "projects": {
     "C:\\Users\\pedroteixeira_frwk\\Desktop\\API.Restaurantes\\Source\\API.Restaurantes.Application\\API.Restaurantes.Application.csproj": {
@@ -192,6 +192,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -212,14 +218,14 @@
         }
       }
     },
-    "C:\\Users\\pedroteixeira_frwk\\Desktop\\API.Restaurantes\\Source\\API.Restaurantes\\API.Restaurantes.csproj": {
+    "C:\\Users\\pedroteixeira_frwk\\Desktop\\API.Restaurantes\\Source\\API.Restaurantes.WebApi\\API.Restaurantes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pedroteixeira_frwk\\Desktop\\API.Restaurantes\\Source\\API.Restaurantes\\API.Restaurantes.csproj",
+        "projectUniqueName": "C:\\Users\\pedroteixeira_frwk\\Desktop\\API.Restaurantes\\Source\\API.Restaurantes.WebApi\\API.Restaurantes.csproj",
         "projectName": "API.Restaurantes",
-        "projectPath": "C:\\Users\\pedroteixeira_frwk\\Desktop\\API.Restaurantes\\Source\\API.Restaurantes\\API.Restaurantes.csproj",
+        "projectPath": "C:\\Users\\pedroteixeira_frwk\\Desktop\\API.Restaurantes\\Source\\API.Restaurantes.WebApi\\API.Restaurantes.csproj",
         "packagesPath": "C:\\Users\\pedroteixeira_frwk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pedroteixeira_frwk\\Desktop\\API.Restaurantes\\Source\\API.Restaurantes\\obj\\",
+        "outputPath": "C:\\Users\\pedroteixeira_frwk\\Desktop\\API.Restaurantes\\Source\\API.Restaurantes.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"

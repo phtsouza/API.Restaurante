@@ -40,21 +40,27 @@ namespace API.Restaurantes.Controllers
         [HttpGet, AllowAnonymous]
         public async Task<IActionResult> ObterTodosRestaurantesAsync()
         {
-            return Ok();
-        }
+            var listaRestaurantes = await restaurantesServices.ObterTodosRestaurantesAsync();
 
-        [HttpDelete, AllowAnonymous]
-        public async Task<IActionResult> DeletarRestauranteAsync(Guid Id)
-        {
-            return Ok();
+            return Ok(mapper.Map<IEnumerable<RestauranteGetResult>>(listaRestaurantes));
         }
 
         [HttpGet("{id}"), AllowAnonymous]
-        public async Task<IActionResult> ObterRestaurantePorIdAsync(Guid Id)
+        [ProducesResponseType(typeof(Restaurante), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<IActionResult> ObterRestaurantePorIdAsync(int id)
+        {
+            var restauranteGetResult = await restaurantesServices.ObterRestaurantePorIdAsync(id);
+
+            return Ok(mapper.Map<RestauranteGetResult>(restauranteGetResult));
+        }
+
+        [HttpDelete, AllowAnonymous]
+        public async Task<IActionResult> DeletarRestauranteAsync(int id)
         {
             return Ok();
         }
-
 
     }
 }

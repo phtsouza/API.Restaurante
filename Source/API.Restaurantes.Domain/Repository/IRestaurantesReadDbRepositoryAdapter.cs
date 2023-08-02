@@ -1,11 +1,9 @@
 ﻿using API.Restaurantes.Domain.Models;
 
-namespace API.Restaurantes.Domain.Services
+namespace API.Restaurantes.Domain.Repository
 {
-    public interface IRestaurantesService
+    public interface IRestaurantesReadDbRepositoryAdapter
     {
-        Task<Restaurante> GravarRestauranteAsync(Restaurante restaurante);
-
         Task<IEnumerable<Restaurante>> ObterTodosRestaurantesAsync();
 
         Task<Restaurante> ObterRestaurantePorIdAsync(int id);
