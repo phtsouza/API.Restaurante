@@ -10,16 +10,16 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["API.Restaurantes.WebApi/API.Restaurantes.WebApi.csproj", "API.Restaurantes.WebApi/"]
-RUN dotnet restore "API.Restaurantes.WebApi/API.Restaurantes.WebApi.csproj"
+COPY ["API.Restaurantes/API.Restaurantes.csproj", "API.Restaurantes/"]
+RUN dotnet restore "API.Restaurantes/API.Restaurantes.csproj"
 COPY . .
-WORKDIR "/src/API.Restaurantes.WebApi"
-RUN dotnet build "API.Restaurantes.WebApi.csproj" -c Release -o /app/build
+WORKDIR "/src/API.Restaurantes"
+RUN dotnet build "API.Restaurantes.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "API.Restaurantes.WebApi.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "API.Restaurantes.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "API.Restaurantes.WebApi.dll"]
+ENTRYPOINT ["dotnet", "API.Restaurantes.dll"]
